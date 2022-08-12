@@ -1,0 +1,258 @@
+:root {
+    --primary-text-color:rgba(117, 117, 117, 1);
+    --title-text-color:rgba(33, 33, 33, 1);
+    --accent-color:rgba(33, 150, 243, 1);
+    --primary-bg-color: rgba(255, 255, 255, 1);
+    }
+
+/*Button*/
+
+.button {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+
+ 
+}
+
+.button:hover,
+.button:focus {
+    color: var(--title-text-color);
+    background-color:rgba(245, 244, 250, 1);
+
+    border: none;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+
+    border: none;
+    
+}
+
+/* Тело страницы */
+
+body {
+    color:var(--primary-text-color);
+    background-color: var(--primary-bg-color);
+
+    font-family: 'roboto',sans-serif;
+    letter-spacing: 0.03em;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+   
+}
+
+.section-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Шапка */
+
+.logo-first {
+    color: var(--accent-color);
+
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif
+}
+
+.logo-second {
+    color: rgba(0, 0, 0, 1);
+}
+
+.site-nav,.link {
+    color: var(--title-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.site-nav,.link:hover,
+.site-nav,.link:focus
+ {
+    color: var(--accent-color);
+}
+
+.site-nav,.current {
+    color: var(--accent-color);
+}
+
+.auth-nav,
+.link-auth {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+}
+
+.auth-nav,.link-auth:hover,
+.auth-nav,.link-auth:focus {
+    color: var(--accent-color);
+}
+
+/* Секция герой */
+
+.hero {
+    background-color: rgba(47, 48, 58, 1);
+    text-align: center;
+
+}
+
+.hero-title {
+    color: rgba(255, 255, 255, 1);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;    
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+}
+   
+
+/* Секция особенности */
+
+.feature-title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+/*Примеры работ*/
+
+.examples-img {
+    width: 370px;
+    height: 294px;
+}
+
+/* Наша команда */
+
+.team {
+   background-color: rgba(245, 244, 250, 1)
+}
+
+.team-img {
+    width: 270px;
+    height: 260px;
+}
+
+.author-team {
+    color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.section-team {
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+
+/* Подвал */
+
+.footer {
+    background-color: rgba(47, 48, 58, 1);
+}
+
+.address {
+    font-style: normal;
+}
+
+.logo-sec,.address-maps {
+    color: var(--primary-bg-color);
+
+    text-decoration: none;
+}
+
+.address-maps:hover,
+.address-maps:focus {
+    color: var(--accent-color);
+}
+
+.address-nav {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+.address-nav:hover,
+.address-nav:focus {
+    color: var(--accent-color);
+}
+
+ /* PORTFOLIO.CSS */
+
+ /* Фильтр */
+
+.btn {
+    color: var(--title-text-color);
+    background-color: rgba(245, 244, 250, 1);
+
+    border: none;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.btn:hover,
+.btn:focus {
+    color: var(--primary-bg-color);
+    background-color: var(--accent-color);
+
+    border: none;
+
+}
+
+/* Галерея */
+
+.gallery-list {
+    font-size: 16px;
+    line-height: 1.87;
+}
+
+.gallery-title {
+    color: var(--title-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.pic {
+    width: 370px;
+    height: 294px;
+}
