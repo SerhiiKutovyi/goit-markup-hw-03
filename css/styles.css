@@ -36,7 +36,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     width: 1200px;
-    outline: 2px solid tomato;
+    outline: 1px solid tomato;
 }
 
 p,h2 {
@@ -104,6 +104,9 @@ p,h2 {
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     flex-wrap: wrap;
+    border-bottom: 15px solid green;
+
+    
     align-items: center;
 }
 
@@ -131,16 +134,6 @@ p,h2 {
 
 .site-nav .item {
  
-    padding-top: 32px;
-    padding-bottom: 32px;
-    
-
-    color: var(--title-text-color);
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    
 }
 
 
@@ -155,7 +148,15 @@ p,h2 {
 }
 
 .site-nav .link {
+
+    color: var(--title-text-color);
     text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    
+    
 }
 
 
@@ -178,7 +179,7 @@ p,h2 {
     color: var(--accent-color);
 }
 
-.site-nav,.current {
+.site-nav .current {
     color: var(--accent-color);
 }
 
@@ -215,31 +216,25 @@ p,h2 {
 
 .line {
 
-    margin-bottom: 15px;
-    display: inline;
-
-    
-
+ 
     height: 6px;
+    margin-bottom: 15px;
 }
 
 
 /* Секция герой */
 
 .page-hero {
+
     background-color: rgba(47, 48, 58, 1);
-
     height: 600px;
-    margin-bottom: ;
 
-   
 }
 
 .hero {
     text-align: center;
     padding-top: 200px;
     
-
 }
 
 .hero-title {
