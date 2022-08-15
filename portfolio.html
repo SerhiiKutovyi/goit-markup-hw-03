@@ -20,25 +20,31 @@
   <body>
     <!-- Шапка -->
 
-    <header class="header">
-      <nav class="main-nav container">
-        <a href="#" class="logo-first">Web<span class="logo-second">Studio</span></a>
+    <header>
+      <section class="header container">
+        <div class="head">
+          <a href="#" class="logo-first">Web<span class="logo-second">Studio</span></a>
+        </div>
 
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link">Студія</a></li>
-          <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
-          <li class="item"><a href="#" class="link">Контакти</a></li>
-        </ul>
+        <nav class="main-nav">
+          <ul class="site-nav list">
+            <li class="item"><a href="./index.html" class="link">Студія</a></li>
+            <li class="item"><a href="./portfolio.html" class="link current">Портфоліо</a></li>
+            <li class="item"><a href="#" class="link">Контакти</a></li>
+          </ul>
+        </nav>
 
-        <ul class="auth-nav list">
+        <ul class="contacts list">
           <li class="item">
+            <img src="./images/envelope.jpg" alt="лист" class="envelope" />
             <a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a>
           </li>
           <li class="item">
+            <img src="./images/smartphone.jpg" alt="смартфон" class="smartphone" />
             <a href="tel:+380961111111" class="link-auth">+38 096 111 11 11</a>
           </li>
         </ul>
-      </nav>
+      </section>
     </header>
 
     <main>
@@ -60,9 +66,18 @@
         <div class="container">
           <ul class="gallery">
             <li class="gallery-list list">
-              <img src="./images/img13.jpg" style="display: block" class="pic" alt="notebook" />
-              <h2 class="gallery-title">Технокряк</h2>
-              <p>Веб-сайт</p>
+              <img
+                src="./images/img13.jpg"
+                style="display: block"
+                class="pic"
+                alt="notebook"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Технокряк</h2>
+                <p>Веб-сайт</p>
+              </div>
             </li>
 
             <li class="gallery-list list">
@@ -71,9 +86,13 @@
                 style="display: block"
                 class="pic"
                 alt="basketball players"
+                width="370px"
+                height="294px"
               />
-              <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
-              <p>Дизайн</p>
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
+                <p>Дизайн</p>
+              </div>
             </li>
 
             <li class="gallery-list list">
@@ -82,40 +101,98 @@
                 style="display: block"
                 class="pic"
                 alt="restaurant logo"
+                width="370px"
+                height="294px"
               />
-              <h2 class="gallery-title">Ресторан Seafood</h2>
-              <p>Додаток</p>
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Ресторан Seafood</h2>
+                <p>Додаток</p>
+              </div>
             </li>
 
             <li class="gallery-list list">
-              <img src="./images/img7.jpg" style="display: block" class="pic" alt="headphones" />
-              <h2 class="gallery-title">Проєкт Prime</h2>
-              <p>Маркетинг</p>
+              <img
+                src="./images/img7.jpg"
+                style="display: block"
+                class="pic"
+                alt="headphones"
+                width="370px"
+                height="294"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Проєкт Prime</h2>
+                <p>Маркетинг</p>
+              </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img8.jpg" style="display: block" class="pic" alt="gift boxes" />
-              <h2 class="gallery-title">Проєкт Boxes</h2>
-              <p>Додаток</p>
+              <img
+                src="./images/img8.jpg"
+                style="display: block"
+                class="pic"
+                alt="gift boxes"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Проєкт Boxes</h2>
+                <p>Додаток</p>
+              </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img9.jpg" style="display: block" class="pic" alt="apple imac" />
-              <h2 class="gallery-title">Inspiration has no Borders</h2>
-              <p>Веб-сайт</p>
+              <img
+                src="./images/img9.jpg"
+                style="display: block"
+                class="pic"
+                alt="apple imac"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Inspiration has no Borders</h2>
+                <p>Веб-сайт</p>
+              </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img10.jpg" style="display: block" class="pic" alt="book" />
-              <h2 class="gallery-title">Видання Limited Edition</h2>
-              <p>Дизайн</p>
+              <img
+                src="./images/img10.jpg"
+                style="display: block"
+                class="pic"
+                alt="book"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Видання Limited Edition</h2>
+                <p>Дизайн</p>
+              </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img11.jpg" style="display: block" class="pic" alt="label" />
-              <h2 class="gallery-title">Проект LAB</h2>
-              <p>Маркетинг</p>
+              <img
+                src="./images/img11.jpg"
+                style="display: block"
+                class="pic"
+                alt="label"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Проект LAB</h2>
+                <p>Маркетинг</p>
+              </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img12.jpg" style="display: block" class="pic" alt="notebook" />
-              <h2 class="gallery-title">Growing Business</h2>
-              <p>Додаток</p>
+              <img
+                src="./images/img12.jpg"
+                style="display: block"
+                class="pic"
+                alt="notebook"
+                width="370px"
+                height="294px"
+              />
+              <div class="gallerry-border">
+                <h2 class="gallery-title">Growing Business</h2>
+                <p>Додаток</p>
+              </div>
             </li>
           </ul>
         </div>

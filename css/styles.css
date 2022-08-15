@@ -101,19 +101,24 @@ p,h2 {
 /* Шапка */
 
 .header {
+
+    align-items: center;
+
     background-color: rgba(255, 255, 255, 1);
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 15px solid green;
-
+    border-bottom: 21px solid rgba(255, 255, 255, 1);
     
-    align-items: center;
+    
 }
+
 
 
 .logo-first {
 
     width: 145px;
+    flex-grow: 15px;
+    
 
     color: var(--accent-color);
     font-weight: 700;
@@ -130,14 +135,7 @@ p,h2 {
 
 }
 
-/* Site nav */
-
-.site-nav .item {
- 
-}
-
-
-/* Mein nav */
+/* Mein nav-Site nav*/
 
 .site-nav {
 
@@ -147,7 +145,15 @@ p,h2 {
     
 }
 
+.site-nav .item {
+    padding-bottom: 11px;
+    padding-top: 32px;
+}
+             
 .site-nav .link {
+
+    padding-bottom: 11px;
+    padding-top: 32px;
 
     color: var(--title-text-color);
     text-decoration: none;
@@ -156,9 +162,7 @@ p,h2 {
     line-height: 1.14;
     letter-spacing: 0.02em;
     
-    
 }
-
 
 .main-nav {
 
@@ -166,7 +170,6 @@ p,h2 {
     align-items: center;
 
 }
-
 
 .site-nav .item + .item {
     margin-left: 50px;
@@ -183,9 +186,9 @@ p,h2 {
     color: var(--accent-color);
 }
 
-/* AUTH NAV */
+/* Contacts */
 
-.header .auth-nav {
+.header .contacts {
 
     display: flex;
     margin-left: auto;
@@ -193,13 +196,23 @@ p,h2 {
 }
 
 
-.auth-nav .item + .item {
-    margin-left: 50px;
-    
+.contacts .item {
+
+    padding-bottom: 11px;
+    padding-top: 32px;
+
 }
 
-.auth-nav 
+.contacts .item + .item {
+
+    margin-left: 30px;
+
+}
+
+.contacts 
 .link-auth {
+
+    padding-left: 10px;
 
     color: var(--primary-text-color);
     font-weight: 500;
@@ -209,14 +222,13 @@ p,h2 {
     text-decoration: none;
 }
 
-.auth-nav,.link-auth:hover,
-.auth-nav,.link-auth:focus {
+.contacts,.link-auth:hover,
+.contacts,.link-auth:focus {
     color: var(--accent-color);
 }
 
 .line {
 
- 
     height: 6px;
     margin-bottom: 15px;
 }
@@ -292,14 +304,12 @@ p,h2 {
     margin-right: 30px;
 }
 
-
 .examples-img {
 
     width: 370px;
     height: 294px;
     display: block;
 }
-
 
 /* Наша команда */
 
@@ -457,8 +467,17 @@ p,h2 {
     padding: 0px;
     display: flex;
     flex-wrap: wrap;
-    background-color: gold
     
+    
+}
+
+.gallerry-border {
+
+    padding: 20px 24px 20px 24px;
+   
+    height: 110px;
+    border: 1px solid rgba(238, 238, 238, 1);
+    border-top: none;
 }
 
 .gallery-list {
@@ -503,6 +522,4 @@ p,h2 {
     padding-left: 0px;
     padding-right: 0px;
 
-    width: 370px;
-    height: 294px;
 }
