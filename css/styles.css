@@ -517,6 +517,10 @@ p,h2 {
 .gallery-list .pic
 
 .pic {
+
+    width:"370px";
+    height:"294px";
+
     margin-left: 0px;
     margin-right: 0px;
     padding-left: 0px;
