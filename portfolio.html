@@ -20,8 +20,8 @@
   <body>
     <!-- Шапка -->
 
-    <header>
-      <section class="header container">
+     <header>
+      <section class="search container">
         <h2 style="display: none">навігація</h2>
         <div class="head">
           <a href="#" class="logo-first">Web<span class="logo-second">Studio</span></a>
@@ -37,12 +37,10 @@
 
         <ul class="contacts list">
           <li class="item">
-            <img src="./images/envelope.jpg" alt="лист" class="envelope" />
-            <a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a>
           </li>
           <li class="item">
-            <img src="./images/smartphone.jpg" alt="смартфон" class="smartphone" />
-            <a href="tel:+380961111111" class="link-auth">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link-contacts">+38 096 111 11 11</a>
           </li>
         </ul>
       </section>
@@ -51,23 +49,23 @@
     <main>
       <!-- Фильтр -->
 
-      <section>
-        <h1 style="display: none">Контент</h1>
-        <div class="container">
+      <section class="benefits container">
+        <!-- <div class=""> -->
+          <h1 style="display: none">Контент</h1>
+
           <ul class="filter list">
-            <li class="item"><button type="button" class="btn">Все</button></li>
+            <li class="item"><button type="button" class="btn">Усі</button></li>
             <li class="item"><button type="button" class="btn">Веб-сайти</button></li>
             <li class="item"><button type="button" class="btn">Додатки</button></li>
             <li class="item"><button type="button" class="btn">Дизайн</button></li>
             <li class="item"><button type="button" class="btn">Маркетинг</button></li>
           </ul>
-        </div>
-        <!-- Галерея -->
 
-        <div class="container">
+          <!-- Галерея -->
+
           <ul class="gallery">
             <li class="gallery-list list">
-              <img src="./images/img13.jpg" style="display: block" class="pic" alt="notebook" />
+              <img src="./images/img13.jpg" class="pic" alt="notebook" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Технокряк</h2>
                 <p>Веб-сайт</p>
@@ -75,12 +73,8 @@
             </li>
 
             <li class="gallery-list list">
-              <img
-                src="./images/img5.jpg"
-                style="display: block"
-                class="pic"
-                alt="basketball players"
-              />
+              <img src="./images/img5.jpg" class="pic" alt="basketball players" width: 370 height:
+              294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
                 <p>Дизайн</p>
@@ -88,11 +82,7 @@
             </li>
 
             <li class="gallery-list list">
-              <img
-                src="./images/img6.jpg"
-                style="display: block"
-                class="pic"
-                alt="restaurant logo"
+              <img src="./images/img6.jpg" class="pic" alt="restaurant logo" width: 370 height: 294
               />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Ресторан Seafood</h2>
@@ -101,42 +91,42 @@
             </li>
 
             <li class="gallery-list list">
-              <img src="./images/img7.jpg" style="display: block" class="pic" alt="headphones" />
+              <img src="./images/img7.jpg" class="pic" alt="headphones" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Проєкт Prime</h2>
                 <p>Маркетинг</p>
               </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img8.jpg" style="display: block" class="pic" alt="gift boxes" />
+              <img src="./images/img8.jpg" class="pic" alt="gift boxes" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Проєкт Boxes</h2>
                 <p>Додаток</p>
               </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img9.jpg" style="display: block" class="pic" alt="apple imac" />
+              <img src="./images/img9.jpg" class="pic" alt="apple imac" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Inspiration has no Borders</h2>
                 <p>Веб-сайт</p>
               </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img10.jpg" style="display: block" class="pic" alt="book" />
+              <img src="./images/img10.jpg" class="pic" alt="book" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Видання Limited Edition</h2>
                 <p>Дизайн</p>
               </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img11.jpg" style="display: block" class="pic" alt="label" />
+              <img src="./images/img11.jpg" class="pic" alt="label" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Проект LAB</h2>
                 <p>Маркетинг</p>
               </div>
             </li>
             <li class="gallery-list list">
-              <img src="./images/img12.jpg" style="display: block" class="pic" alt="notebook" />
+              <img src="./images/img12.jpg" class="pic" alt="notebook" width: 370 height: 294 />
               <div class="gallerry-border">
                 <h2 class="gallery-title">Growing Business</h2>
                 <p>Додаток</p>
@@ -149,30 +139,30 @@
 
     <!-- Подвал -->
 
-    <footer class="footer">
-      <div class="container">
+    <footer>
+      <section class="footer container">
         <a href="#" class="logo-first">Web<span class="logo-sec">Studio</span></a>
-      </div>
 
-      <address class="address container">
-        <ul class="address-list list">
-          <li class="item">
-            <a
-              class="address-maps"
-              href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-              target="_blank"
-              rel="noopener noreferrer"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="item">
-            <a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="item">
+              <a
+                class="address-maps"
+                href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                target="_blank"
+                rel="noopener noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>

@@ -24,7 +24,7 @@
     <!-- Шапка -->
 
     <header>
-      <section class="header container">
+      <section class="search container">
         <h2 style="display: none">навігація</h2>
         <div class="head">
           <a href="#" class="logo-first">Web<span class="logo-second">Studio</span></a>
@@ -40,10 +40,10 @@
 
         <ul class="contacts list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="link-auth">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link-contacts">info@devstudio.com</a>
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="link-auth">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link-contacts">+38 096 111 11 11</a>
           </li>
         </ul>
       </section>
@@ -52,15 +52,12 @@
     <main>
       <!-- Секция герой -->
 
-      <div class="page-hero">
-        <section class="hero">
-          <h1 class="hero-title">
-            Ефективні рішення для <br />
-            вашого бізнесу
-          </h1>
+      <section class="hero-section section">
+        <div class="container">
+          <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
           <button type="button" class="button">Замовити послугу</button>
-        </section>
-      </div>
+        </div>
+      </section>
 
       <!-- Секция особенности -->
 
@@ -96,7 +93,6 @@
       <section class="examples">
         <div class="container">
           <h2 class="section-title">Чим ми займаємося</h2>
-
           <ul class="examples-list list">
             <li class="item">
               <img src="./images/box1.jpg" class="examples-img" alt="computer work" />
@@ -118,31 +114,59 @@
           <h2 class="section-title">Наша команда</h2>
           <ul class="section-team list">
             <li class="item">
-              <img src="./images/img4.jpg" alt="man with glasses" class="team-img" />
-
-              <h3 class="author-team">Ігор Дем'яненко</h3>
-              <p>Product Designer</p>
+              <img
+                src="./images/img4.jpg"
+                alt="man with glasses"
+                width="270"
+                height="260"
+                class="team-img"
+              />
+              <div class="team-border">
+                <h3 class="author-team">Ігор Дем'яненко</h3>
+                <p>Product Designer</p>
+              </div>
             </li>
 
             <li class="item">
-              <img src="./images/img1.jpg" alt="Girl in glasses" class="team-img" />
-
-              <h3 class="author-team">Ольга Рєпіна</h3>
-              <p>Frontend Developer</p>
+              <img
+                src="./images/img1.jpg"
+                alt="Girl in glasses"
+                class="team-img"
+                width="270"
+                height="260"
+              />
+              <div class="team-border">
+                <h3 class="author-team">Ольга Рєпіна</h3>
+                <p>Frontend Developer</p>
+              </div>
             </li>
 
             <li class="item">
-              <img src="./images/img2.jpg" alt="the male" class="team-img" />
-
-              <h3 class="author-team">Микола Тарасов</h3>
-              <p>Marketing</p>
+              <img
+                src="./images/img2.jpg"
+                alt="the male"
+                class="team-img"
+                width="270"
+                height="260"
+              />
+              <div class="team-border">
+                <h3 class="author-team">Микола Тарасов</h3>
+                <p>Marketing</p>
+              </div>
             </li>
 
             <li class="item">
-              <img src="./images/img3.jpg" alt="man with glasses" class="team-img" />
-
-              <h3 class="author-team">Михайло Єрмаков</h3>
-              <p>UI Designer</p>
+              <img
+                src="./images/img3.jpg"
+                alt="man with glasses"
+                class="team-img"
+                width="270"
+                height="260"
+              />
+              <div class="team-border">
+                <h3 class="author-team">Михайло Єрмаков</h3>
+                <p>UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -151,30 +175,30 @@
 
     <!-- Подвал -->
 
-    <footer class="footer">
-      <div class="container">
+    <footer>
+      <section class="footer container">
         <a href="#" class="logo-first">Web<span class="logo-sec">Studio</span></a>
-      </div>
 
-      <address class="address container">
-        <ul class="address-list list">
-          <li class="item">
-            <a
-              class="address-maps"
-              href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
-              target="_blank"
-              rel="noopener noreferrer"
-              >м. Київ, пр-т Лесі Українки, 26</a
-            >
-          </li>
-          <li class="item">
-            <a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li class="item">
-            <a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+        <address class="address">
+          <ul class="address-list list">
+            <li class="item">
+              <a
+                class="address-maps"
+                href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265807,30.5383858,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
+                target="_blank"
+                rel="noopener noreferrer"
+                >м. Київ, пр-т Лесі Українки, 26</a
+              >
+            </li>
+            <li class="item">
+              <a class="address-nav" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="item">
+              <a class="address-nav" href="tel:+380961111111">+38 096 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </section>
     </footer>
   </body>
 </html>
