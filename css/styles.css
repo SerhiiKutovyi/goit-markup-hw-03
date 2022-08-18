@@ -56,6 +56,11 @@ img {
   display: block;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 :root {
   --primary-text-color: rgba(117, 117, 117, 1);
   --title-text-color: rgba(33, 33, 33, 1);
@@ -235,7 +240,6 @@ header {
 
 .feature-list {
   display: flex;
-  padding: 94px 0px;
 }
 
 .feature-list .item + .item {
@@ -243,11 +247,10 @@ header {
 }
 
 .feature-title {
-  color: var(--title-text-color);
-
   margin-top: 0;
   margin-bottom: 10px;
 
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -256,8 +259,8 @@ header {
 
 /*-------------------------Примеры работ------------------------*/
 
-.examples .container {
-  padding-bottom: 94px;
+.examples {
+  padding-top: 0px;
 }
 
 .examples-list {
@@ -276,11 +279,6 @@ header {
 
 .team-border {
   padding: 30px 70px 30px 70px;
-}
-
-.team .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .author-team {
@@ -315,11 +313,11 @@ header {
 
 /* =======================Подвал============================ */
 
-.footer {
+footer {
   background-color: rgba(47, 48, 58, 1);
 }
 
-footer .container {
+.foot {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -393,10 +391,6 @@ footer .container {
 }
 
 /* _____________________Галерея___________________ */
-
-.benefits {
-  padding: 94px 15px;
-}
 
 .gallery {
   margin-top: 0px;
